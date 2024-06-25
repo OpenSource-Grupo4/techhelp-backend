@@ -10,7 +10,7 @@ services:
       - db
     environment:
       - MYSQL_USER=root
-      - MYSQL_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
       - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/techelp
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=root
