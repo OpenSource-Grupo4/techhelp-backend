@@ -1,5 +1,4 @@
-# the base image - jdk amazon v17 linux
-FROM amazoncorretto:20
+FROM amazoncorretto:22
 
 # the JAR file path
 ARG JAR_FILE=target/*.jar
