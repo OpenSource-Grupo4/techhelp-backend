@@ -2,7 +2,8 @@
 FROM amazoncorretto:17
 
 # the JAR file path
-ARG JAR_FILE=jar/*.jar
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
 
 CMD apt-get update -y
 
