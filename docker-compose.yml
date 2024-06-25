@@ -22,10 +22,10 @@ services:
     restart: always
     container_name: db
     environment:
-      - MYSQL_USER= 'root'
-      - MYSQL_PASSWORD = 'root'
-      - MYSQL_ROOT_PASSWORD= 'root'
-      - MYSQL_DATABASE= 'techelp'
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD =root
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=techelp
     ports:
       - "3306:3306"
     expose:
